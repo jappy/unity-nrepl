@@ -3,7 +3,7 @@ unity-nrepl
 
 nREPL for Unity
 
-This project is based on:
+This project is depends and is based on:
 
 * https://github.com/clojure-unity/clojure-unity
 * https://github.com/clojure-unity/clojure-clr
