@@ -15,4 +15,3 @@ The nREPL code is a hacked up version of:
 Requires: cider-0.6alpha
 
 Note: Does work with cider-0.6.0 but when asks you for a lisp expression when connecting. Cider 0.7.0beta also works but asks for 3 lisp expressions when connecting. I usually just enter the number 1 or something. Cider-0.6alpha works fine.
-
