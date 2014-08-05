@@ -2,8 +2,7 @@
   (:refer-clojure)
   (:require [clojure.main :as main])
   (:import
-   (UnityEngine Debug GUILayout)
-   (UnityEditor EditorGUILayout EditorWindow EditorStyles))
+   (UnityEngine Debug GUILayout))
   (:require [clojure.tools.nrepl.middleware :as middleware]
             [unity.nrepl.middleware.interruptible-eval :as eval]
             [unity.nrepl.middleware.session :as session]
@@ -61,7 +60,7 @@
          (swap! server-running? not)))))
 
 (defn start [this]
-  (Debug/Log "calling start")
+  (Debug/Log "starting nrepl...")
   (server-start))
 
 (defn update [this]
