@@ -1,7 +1,7 @@
 unity-nrepl
 ===========
 
-Clojure nREPL for Unity
+Clojure nREPL for Unity 3D
 
 This project is depends and is based on:
 
