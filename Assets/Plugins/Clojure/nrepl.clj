@@ -66,10 +66,10 @@
 (defn update [this]
   (eval/process-queue))
 
-(defn on-destroy []
+(defn on-destroy [this]
   (Debug/Log "on-disable")
   (server-stop "upon destroy."))
 
-(defn on-disable []
+(defn on-disable [this]
   (Debug/Log "on-disable")
   (server-stop "upon disable."))
