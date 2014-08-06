@@ -25,3 +25,4 @@ Todo:
 * fix nREPL Editor disable issues.
 * support new versions of cider.
 * build a set of middleware based on the cider-nrepl set of middleware.
+* Replaced BlockingCollection with a List... perhaps do something about that.
