@@ -20,6 +20,7 @@ Note: Does work with cider-0.6.0 but when asks you for a lisp expression when co
 
 Remaining issues:
  * nrepl editor disconnects when project changes or new files are add or removed. This only of course pertains to the development of editors.
+ * sometimes Emacs crashes when typing... I think it is the autocomplete/suggest code.
 
 Todo:
 * fix nREPL Editor disable issues.
