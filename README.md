@@ -19,11 +19,9 @@ Requires: cider-0.6alpha (currently ships with [emacs-live](https://github.com/o
 Note: Does work with cider-0.6.0 but asks you for a lisp expression when connecting. Cider 0.7.0beta also works but asks for 3 lisp expressions when connecting. I usually just enter the number 1 or something. Cider-0.6alpha works fine.
 
 Remaining issues:
- * nrepl editor disconnects when project changes or new files are add or removed. This only of course pertains to the development of editors.
- * sometimes Emacs crashes when typing... I think it is the autocomplete/suggest code.
-
-Todo:
-* fix nREPL Editor disable issues.
+* nrepl editor disconnects when project changes or new files are add or removed. This only of course pertains to the development of editors--does not appy to nrepl server embedded in game.
+* sometimes Emacs crashes when typing... I think it is the autocomplete/suggest code.
 * support new versions of cider.
 * build a set of middleware based on the cider-nrepl set of middleware.
 * Replaced BlockingCollection with a List... perhaps do something about that.
+* supply various versions of java, cider, and cider-nrepl so lisp expressions are not requested.
